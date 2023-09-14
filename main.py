@@ -41,10 +41,6 @@ def download_menu():
 		os.system(f'git clone {repo_}')
 		print(colorama.Fore.YELLOW+"\nRepo Cloned")
 
-
-def search(repo):
-	pass
-
 def main():
 	print("Welcome to github CLI\n Here you can list all the repos of a user and you can also clone them\nNote: You have to install git before you run the script.")
 	username_ = input("Enter a github username: ")
