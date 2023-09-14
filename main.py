@@ -6,7 +6,7 @@ import sys
 colorama.init()
 repos_ = []
 def list_repos(username):
-    token = "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"
+    token = "" # Get it from https://github.com/settings/developers
 
     url = f"https://api.github.com/users/{username}/repos"
     headers = {"Authorization": f"token {token}"}
